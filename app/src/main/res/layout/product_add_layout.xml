@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="1mm"
+    android:background="#43ACDB"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:padding="1mm"
+        android:layout_marginBottom="1mm"
+        android:textAlignment="center"
+        android:hint="[Name]"
+        android:id="@+id/txtName"
+        android:background="#d2d2d2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="1mm"
+        android:layout_marginBottom="1mm"
+        android:textAlignment="center"
+        android:hint="[color]"
+        android:id="@+id/txtColor"
+        android:background="#d2d2d2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Add"
+            android:background="#FFFF8D"
+            android:layout_marginRight="2mm"
+            android:id="@+id/btnAdd"
+            android:layout_weight="0.5"
+            android:layout_width="0mm"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#88FF8A80"
+            android:text="Cancel"
+            android:id="@+id/btnCancel"
+            android:layout_weight="0.5"
+            android:layout_width="0mm"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
